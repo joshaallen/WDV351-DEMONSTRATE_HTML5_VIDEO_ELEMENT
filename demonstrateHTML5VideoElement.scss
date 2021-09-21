@@ -2,11 +2,11 @@
 html {
   height: 100%;
   font-size: 100%;
-}
-body {
+} 
+ body {
   min-height: 100%;
   line-height: 1.5;
-}
+} 
 *, ::after, ::before {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 a {
   text-decoration: none;
-}
+} 
 //layouts
 
 p {            // this is a space holder for video element
@@ -22,13 +22,24 @@ p {            // this is a space holder for video element
   height: 150px;
   border: solid 1px black;
 }
-
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-
+  border: 2px solid black;
+  border-radius: 20px;
 }
 header {
   text-align: center;
+  margin: 0 0 20px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 0 50px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 80px;
 }
