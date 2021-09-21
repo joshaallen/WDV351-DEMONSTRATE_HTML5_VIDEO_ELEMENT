@@ -49,4 +49,11 @@ main {
   margin: 0 0 80px;
 }
 
+@media screen and (min-width: 600px) {
+  video {
+    width: 560px;
+    height: 315px;
+  }
+}
+
 /*# sourceMappingURL=demonstrateHTML5VideoElement.css.map */
